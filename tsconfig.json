@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "ignoreDeprecations": "6.0",
     "paths": {
       "@/*": ["./src/*"],
       "@root/*": ["./*"],
@@ -17,7 +15,7 @@
       "@hooks/*": ["./src/hooks/*"],
       "@constants/*": ["./src/constants/*"]
     },
-    "allowJs": true,
+    "allowJs": false,
     "checkJs": false,
     "target": "ES2020",
     "lib": ["DOM", "DOM.Iterable", "ES2020"],
