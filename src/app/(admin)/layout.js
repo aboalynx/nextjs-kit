@@ -2,11 +2,6 @@ import { Geist, Geist_Mono } from 'next/font/google';
 // Critical CSS - loads immediately, contains only essential styles
 import '@/styles/admin/critical.css';
 
-// Deferred styles - loaded after initial paint
-const loadDeferredStyles = () => {
-  import('@styles/admin/deferred.css');
-};
-
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
@@ -23,11 +18,6 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  // Load non-critical CSS after initial paint
-  useEffect(() => {
-    loadDeferredStyles();
-  }, []);
-
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">{children}</body>

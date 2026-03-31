@@ -13,6 +13,6 @@
   small,
   caption,
   figcaption {
-    @apply text-masala;
+    @apply text-(--color-masala);
   }
 }

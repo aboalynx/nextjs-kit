@@ -1,24 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Kit
+
+## Project Documentation
+
+Maintain consistency and quality by following these guidelines:
+
+- 🏗️ **[Code Structure](./docs/code-structure.md)**: Overview of the `src` directory and domain separation (`admin`, `client`, `shared`).
+- 🏷️ **[Naming Conventions](./docs/naming-conventions.md)**: Rules for file naming, component patterns, and state management.
+- 🛠️ **[Tools & Resources](./docs/tools.md)**: Recommended tools for Tailwind colors, BEM methodology, and more.
+
+## Development Standards
+
+This project enforces high quality standards through automated git hooks:
+
+- **Testing**: Every commit must pass all Unit (`npm run test:unit`) and E2E (`npm run test:e2e`) tests.
+- **Coverage**: Unit test coverage must be **70% or higher** across all metrics.
+- **Linting**: No ESLint warnings are allowed (`--max-warnings=0`).
+- **Commits**: Messages must follow [Conventional Commits](https://www.conventionalcommits.org/) (e.g., `feat: ...`, `fix: ...`, `build: ...`).
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev`: Start development server.
+- `npm run test:unit`: Run Vitest unit tests.
+- `npm run test:unit:changed`: Run Vitest only for changed files.
+- `npm run test:e2e`: Run Playwright end-to-end tests.
+- `npm run test:all`: Run both Unit and E2E tests.
+- `npm run lint`: Run ESLint check.
 
 ## Learn More
 
