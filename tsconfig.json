@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@root/*": ["./*"],
+      "@components/*": ["./src/components/*"],
+      "@app/*": ["./src/app/*"],
+      "@client/*": ["./src/app/(client)/*"],
+      "@admin/*": ["./src/app/(admin)/*"],
+      "@services/*": ["./src/services/*"],
+      "@context/*": ["./src/context/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@lib/*": ["./src/lib/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@constants/*": ["./src/constants/*"]
+    },
+    "allowJs": true,
+    "checkJs": false,
+    "target": "ES2020",
+    "lib": ["DOM", "DOM.Iterable", "ES2020"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "src",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": ["node_modules", ".next"]
+}

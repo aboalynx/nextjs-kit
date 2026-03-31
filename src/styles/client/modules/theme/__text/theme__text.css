@@ -1,0 +1,18 @@
+/* This styles can be overrided by custom tailwindcss */
+@import './theme__text--en.css';
+@import './theme__text--ar.css';
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  small,
+  caption,
+  figcaption {
+    @apply text-woodsmoke;
+  }
+}

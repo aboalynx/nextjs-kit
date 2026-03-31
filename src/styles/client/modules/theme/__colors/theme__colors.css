@@ -1,0 +1,82 @@
+@theme {
+  --color-primary-50: color-mix(in srgb, var(--color-primary) 5%, white);
+  --color-primary-100: color-mix(in srgb, var(--color-primary) 10%, white);
+  --color-primary-200: color-mix(in srgb, var(--color-primary) 20%, white);
+  --color-primary-300: color-mix(in srgb, var(--color-primary) 30%, white);
+  --color-primary-400: color-mix(in srgb, var(--color-primary) 40%, white);
+  --color-primary-500: var(--color-primary);
+  --color-primary-600: color-mix(in srgb, var(--color-primary) 80%, black);
+  --color-primary-700: color-mix(in srgb, var(--color-primary) 60%, black);
+  --color-primary-800: color-mix(in srgb, var(--color-primary) 40%, black);
+  --color-primary-900: color-mix(in srgb, var(--color-primary) 20%, black);
+  --color-primary: var(--color-primary);
+
+  /* secondary color */
+  --color-secondary-50: #f2f9fd;
+  --color-secondary-100: #e3f2fb;
+  --color-secondary-200: #c1e5f6;
+  --color-secondary: #ffffff;
+  --color-secondary-400: #4cb9e4;
+  --color-secondary-500: #25a1d2;
+  --color-secondary-600: #1681b3;
+  --color-secondary-700: #136791;
+  --color-secondary-800: #145878;
+  --color-secondary-900: #164964;
+  --color-secondary-950: #0f2f42;
+
+  /* woodsmoke */
+  --color-woodsmoke-50: #f6f6f6;
+  --color-woodsmoke-100: #e7e7e7;
+  --color-woodsmoke-200: #d1d1d1;
+  --color-woodsmoke-300: #b0b0b0;
+  --color-woodsmoke-400: #888888;
+  --color-woodsmoke-500: #6d6d6d;
+  --color-woodsmoke-600: #5d5d5d;
+  --color-woodsmoke-700: #4f4f4f;
+  --color-woodsmoke-800: #454545;
+  --color-woodsmoke-900: #3d3d3d;
+  --color-woodsmoke: #171717;
+
+  /* alto color */
+  --color-alto-50: #f7f7f7;
+  --color-alto-100: #ededed;
+  --color-alto: #d8d8d8;
+  --color-alto-300: #c8c8c8;
+  --color-alto-400: #adadad;
+  --color-alto-500: #999999;
+  --color-alto-600: #888888;
+  --color-alto-700: #7b7b7b;
+  --color-alto-800: #676767;
+  --color-alto-900: #545454;
+  --color-alto-950: #363636;
+
+  /* alabaster */
+  --color-alabaster: #f8f8f8;
+  --color-alabaster-100: #efefef;
+  --color-alabaster-200: #dcdcdc;
+  --color-alabaster-300: #bdbdbd;
+  --color-alabaster-400: #989898;
+  --color-alabaster-500: #7c7c7c;
+  --color-alabaster-600: #656565;
+  --color-alabaster-700: #525252;
+  --color-alabaster-800: #464646;
+  --color-alabaster-900: #3d3d3d;
+  --color-alabaster-950: #292929;
+
+  /* lynch colors */
+  --color-lynch-50: #f4f8fa;
+  --color-lynch-100: #e6edf3;
+  --color-lynch-200: #d4dfe9;
+  --color-lynch-300: #b6cbda;
+  --color-lynch-400: #92b0c8;
+  --color-lynch-500: #7898b9;
+  --color-lynch: #5f7da7;
+  --color-lynch-700: #5a729b;
+  --color-lynch-800: #4d5e80;
+  --color-lynch-900: #414f67;
+  --color-lynch-950: #2b3240;
+  --color-powder-blue: #f4fcff;
+  --color-baby-blue: #def1fd;
+  --color-light-gray: #f2f2f2;
+  --color-charcoal: #282828;
+}

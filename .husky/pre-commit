@@ -1,0 +1,5 @@
+npm run test:unit -- --coverage
+npm run test:e2e
+npx lint-staged
+npx eslint . --max-warnings=0
+npx prettier --check .

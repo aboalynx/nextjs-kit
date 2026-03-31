@@ -1,0 +1,81 @@
+@layer base {
+  [lang='ar'] {
+    /* Headings */
+    & h1 {
+      font-size: 2.25rem; /* 36px */
+      line-height: 3.375rem;
+      font-weight: 800;
+    }
+
+    & h2 {
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.813rem;
+      font-weight: 700;
+    }
+
+    & h3 {
+      font-size: 1.5rem; /* 24px */
+      line-height: 2.25rem;
+      font-weight: 700;
+    }
+
+    & h4 {
+      font-size: 1.25rem; /* 20px */
+      line-height: 1.875rem;
+      font-weight: 700;
+    }
+
+    & h5 {
+      font-size: 1.125rem; /* 18px */
+      line-height: 1.688rem;
+      font-weight: 700;
+    }
+
+    & h6 {
+      font-size: 1rem; /* 16px */
+      line-height: 1.5rem;
+      font-weight: 700;
+    }
+
+    /* Paragraph */
+    & p,
+    & div {
+      font-size: 1rem; /* 16px */
+      line-height: 1.5rem;
+      font-weight: 400;
+    }
+
+    /* Span */
+    & span {
+      font-size: 1rem; /* 16px */
+      line-height: 1.5rem;
+      font-weight: 400;
+    }
+
+    /* link text */
+    & a {
+      font-size: 1rem; /* 16px */
+      line-height: 1.5rem;
+      font-weight: 400;
+    }
+
+    /* Caption (you can apply this to <figcaption>, or custom class .caption) */
+    & .caption,
+    & figcaption {
+      font-size: 1rem; /* 16px */
+      line-height: 1.5rem;
+      font-weight: 400;
+    }
+
+    /* Small text */
+    & small {
+      font-size: 0.875rem; /* 14px */
+      line-height: 1.313rem;
+      font-weight: 400;
+    }
+
+    & table {
+      direction: rtl;
+    }
+  }
+}

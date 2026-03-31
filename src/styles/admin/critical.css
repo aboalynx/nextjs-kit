@@ -1,0 +1,13 @@
+/* 
+ * Critical CSS - Only essential styles that must load immediately
+ * This includes: CSS variables, font-face declarations, base resets
+ */
+@import 'tailwindcss';
+
+/* Theme variables (these are critical for initial paint) */
+@import './modules/theme/theme.css';
+
+/* Base critical styles */
+body {
+  pointer-events: auto !important;
+}

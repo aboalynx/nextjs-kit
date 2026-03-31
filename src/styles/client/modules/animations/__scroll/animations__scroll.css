@@ -1,0 +1,27 @@
+/* Animations */
+@keyframes scroll {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animations .animations__scroll {
+  animation: scroll 20s linear infinite;
+}
+
+.animations .animations__scroll--left {
+  white-space: nowrap;
+  animation: scrollLeft 20s linear infinite;
+}

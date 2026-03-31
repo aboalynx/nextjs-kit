@@ -1,0 +1,16 @@
+[lang='en'] body {
+  font-family: 'Urbanist', sans-serif;
+  direction: ltr;
+  text-align: left;
+}
+
+[lang='ar'] body {
+  font-family: 'Almarai', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+@theme {
+  --font-tomorrow: 'Urbanist', sans-serif;
+  --font-almarai: 'Almarai', sans-serif;
+}

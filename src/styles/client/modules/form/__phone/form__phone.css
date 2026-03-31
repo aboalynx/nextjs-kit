@@ -1,0 +1,15 @@
+.form .form__phone {
+  & .flag-dropdown {
+    padding-right: 10px;
+
+    & .selected-flag {
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+
+      & .arrow {
+        margin-left: 5px;
+      }
+    }
+  }
+}

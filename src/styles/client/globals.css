@@ -1,0 +1,19 @@
+/* Tailwind imports */
+@import 'tailwindcss';
+
+/* Custom Imports */
+@import './modules/theme/theme.css';
+@import './modules/form/form.css';
+@import './modules/animations/animations.css';
+
+/* Base Styles */
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  pointer-events: auto;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,27 @@
+/* 
+ * Critical CSS - Only essential styles that must load immediately
+ * This includes: CSS variables, font-face declarations, base resets
+ */
+/* @import 'tailwindcss'; */
+
+@import 'tailwindcss';
+
+/* Custom Imports */
+@import './modules/theme/theme.css';
+
+/* Base critical styles */
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  pointer-events: auto;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+html body[data-scroll-locked] {
+  margin: 0;
+}

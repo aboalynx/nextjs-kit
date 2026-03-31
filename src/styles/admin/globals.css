@@ -1,0 +1,9 @@
+/* Tailwind imports */
+@import 'tailwindcss';
+
+/* Custom Imports */
+@import './modules/theme/theme.css';
+/* Base Styles */
+body {
+  pointer-events: auto !important;
+}
